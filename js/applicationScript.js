@@ -38,7 +38,6 @@ var init = function() {
     // define your reactions on incoming iwc events here
     console.log(intent);
   };
-  
   client = new Las2peerWidgetLibrary("http://localhost:8080/whiteboard", iwcCallback);
   
 Y({
